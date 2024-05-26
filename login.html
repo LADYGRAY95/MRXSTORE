@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Login and Registration Page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+<link href="stylelogin.css" rel="stylesheet" type="text/css">
+</head>
+<style>/* Style for the body */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-image: url("YOu\ have\ an\ acount\ !\ عندك\ كونت\ \(compte\)\ !.png"); /* Replace 'path-to-your-background-image.jpg' with the actual path to your image */
+    background-size: cover; /* Scale the image to cover the entire body */
+    background-position: center; /* Center the image horizontally and vertically */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+}
+</style>
+<body>
+    <h1>Login</h1>
+    <form action="login.php" method="POST">
+        <label for="username"><p>Username:</p></label>
+        <input type="email" id="username" name="username" required><br><br>
+        <label for="password"><p>Password:</p></label>
+        <input type="password" id="password" name="password" required><br><br>
+        <p><a href="register.html"> don't have an account ?</a></p>
+        <button><input type="submit" value="Login"></button>
+    </form>
+</body>
+</html>

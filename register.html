@@ -1,0 +1,38 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Login and Registration Page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+<link href="stylelogin.css" rel="stylesheet" type="text/css">
+</head>
+<style>/* Style for the body */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-image: url("GET\ THE\ APP.png"); /* Replace 'path-to-your-background-image.jpg' with the actual path to your image */
+    background-size: cover; /* Scale the image to cover the entire body */
+    background-position: center; /* Center the image horizontally and vertically */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+}
+</style>
+<body>
+ <h1>Register</h1>
+    <form action="register.php" method="POST">
+        <label for="new_username"><p>New Username:</p></label>
+        <input type="text" id="new_username" name="new_username" required><br><br>
+        <label for="new_password"><p>Create New Password:</p></label>
+        <input type="password" id="new_password" name="new_password" required><br><br>
+        <label for="phone"><p>Phone number:</p></label>
+        <input type="number" id="phone" name="phone" required><br><br>
+        <label for="email"><p>email:</p></label>
+        <input type="email" id="adress" name="adress" required><br><br>
+        <p><a href="login.html"> already have an account ?</a></p>
+        <button><input type="submit" value="Register"></button>
+    </form>
+</body>
+</html>

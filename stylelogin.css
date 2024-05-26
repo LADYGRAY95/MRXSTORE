@@ -1,0 +1,71 @@
+@charset "utf-8";
+/* CSS Document */
+/* Style for the body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ff000022;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Style for the forms */
+form {
+    background-color: #ffffff0f;
+    max-width: 350px;
+    margin: 8px auto;
+    padding: 8px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgb(255, 4, 4);
+}
+
+/* Style for the form headings */
+h1 {
+    color: #ff0808;
+}
+p {
+    color: #ffffff;
+}
+
+/* Style for form labels */
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+/* Style for form inputs */
+input[type="text"],input[type="email"],input[type="number"],
+input[type="password"] {
+    width: 90%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 2px solid #ff1d1d;
+    border-radius: 3px;
+    font-size: 16px;
+}
+
+/* Style for submit buttons */
+input[type="submit"] {
+    background-color: #ff0000;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+input[type="submit"]:hover {
+    background-color: #919191;
+}
+
+/* Style for form links */
+a {
+    color: #ff0000;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
