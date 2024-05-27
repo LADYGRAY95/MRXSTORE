@@ -60,8 +60,8 @@ header {
   
   .slideshow-image {
     position: absolute;
-    width: 100%;
-    height: 100%;
+    width: 1000px;
+    height: 360px;
     background-size: contain; /* Change this line */
     background-position: center;
     background-repeat: no-repeat; /* Add this line to prevent the image from repeating */
@@ -187,6 +187,10 @@ header {
 	font-size: 14px;
 	text-transform: uppercase;
 	margin-top: 8px;
+}
+.productRow .productInfo .buyButton:hover {
+    background-color: rgb(255, 5, 5); /* Change background color */
+    color: white; /* Change text color */
 }
 /* footer */
 #mainWrapper footer {
