@@ -9,11 +9,11 @@ body {
     text-align: center;
 }
 #logo {
-	float: left;
+	float: right;
 	padding-top: 3px;
 	padding-bottom: 1px;
 	width: 14px;
-    margin-left: 30px;
+    margin-right: 170px;
 	text-align: center;
 	color: #ff0000; /* Red */
 	background-color: #000000; /* Black */
